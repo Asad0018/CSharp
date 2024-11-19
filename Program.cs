@@ -4,22 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03_Arrange
+namespace _04_BMM
 {
     class Program
     {
-        static double Get()
+        static long Get()
         {
             Console.WriteLine("Enter a number");
-            return double.Parse(Console.ReadLine());
+            return long.Parse(Console.ReadLine());
         }
         static void Main(string[] args)
         {
-            double[] nums = { Get(), Get(), Get() };
-            Array.Sort(nums);
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Sorted Numbers from large to small:");
-            for (int i = nums.Length; i > 0; i--) Console.Write(nums[i - 1] + " , ");
+            long[] nums = { Get(), Get() };
+            long bmm = nums[0];
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            while (true)
+            {
+                if (nums[1] % bmm == 0 && nums[0] % bmm == 0)
+                {
+                    Console.WriteLine("BMM: " + bmm);
+                    break;
+                }
+                bmm--;
+            }
             Console.ReadKey();
         }
     }
