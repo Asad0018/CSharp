@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _04_BMM
+namespace _05_KMM
 {
     class Program
     {
@@ -16,17 +16,17 @@ namespace _04_BMM
         static void Main(string[] args)
         {
             long[] nums = { Get(), Get() };
-            long bmm = nums[0];
+            long kmm = nums[0];
 
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             while (true)
             {
-                if (nums[1] % bmm == 0 && nums[0] % bmm == 0)
+                if (kmm % nums[1] == 0 && kmm % nums[0] == 0)
                 {
-                    Console.WriteLine("BMM: " + bmm);
+                    Console.WriteLine("KMM: " + kmm);
                     break;
                 }
-                bmm--;
+                kmm++;
             }
             Console.ReadKey();
         }
