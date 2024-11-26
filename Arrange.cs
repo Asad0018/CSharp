@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//         +-------------------------------------------------------------------+
+//         |   سه عدد دریافت می‌کند و آنها را از بزرگ به کوچک مرتب می‌کند                   |
+//         +-------------------------------------------------------------------+
 namespace _03_Arrange
 {
     class Program
