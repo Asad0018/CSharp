@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//         +-------------------------------------------------------------------+
+//         |   دو عدد دریافت می‌کند و مقدار ک.م.م آنها را محاسبه می‌کند                       |
+//         +-------------------------------------------------------------------+
 namespace _05_KMM
 {
     class Program
