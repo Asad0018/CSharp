@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//          +------------------------------------------------+       
+//          |           فاکتوریل عدد ورودی را محاسبه می‌کند           |
+//          +------------------------------------------------+
 namespace ConsoleApplication1
 {
     class Program
