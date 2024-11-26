@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//       +---------------------------------------------+
+//       | بررسی می‌کند که آیا عدد ورودی اول است یا خیر          |
+//       +---------------------------------------------+
 namespace _08_PrimeNumber
 {
     class Program
